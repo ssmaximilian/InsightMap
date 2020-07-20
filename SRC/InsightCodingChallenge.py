@@ -160,10 +160,3 @@ layout = dict(
 fig = dict(data=dat, layout=layout)
 
 iplot(fig, filename='ConsumerComplaints_MostComplainedProductByState')
-
-echo "# InsightMap" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ssmaximilian/InsightMap.git
-git push -u origin master
