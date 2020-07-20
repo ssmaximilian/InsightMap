@@ -167,3 +167,6 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/ssmaximilian/InsightMap.git
 git push -u origin master
+
+import os
+os.system(command)
