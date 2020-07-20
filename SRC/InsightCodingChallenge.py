@@ -161,3 +161,5 @@ fig = dict(data=dat, layout=layout)
 
 iplot(fig, filename='ConsumerComplaints_MostComplainedProductByState')
 
+import os
+os.system(command)
