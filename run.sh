@@ -1,5 +1,5 @@
 #!/bin/bash
 
-python3 ./SRC/InsightCodingChallenge ./input/dataIn
+python3.8 ./SRC/InsightCodingChallenge ./input/dataIn
 
-python3 ./SRC/InsightCodingChallenge.py ./output/dataOut
+python3.8 ./SRC/InsightCodingChallenge.py ./output/dataOut
