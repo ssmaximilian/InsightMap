@@ -8,3 +8,6 @@ os.system(command)
 python3.8 ./SRC/InsightCodingChallenge.py ./input/dataIn.txt
 python3.8 ./SRC/InsightCodingChallenge.py ./output/dataOut.txt
 
+
+python3.8 ./SRC/InsightCodingChallenge.py ./input/dataIn.csv
+python3.8 ./SRC/InsightCodingChallenge.py ./output/dataOut.txt
