@@ -1,0 +1,32 @@
+  Date received  ... Complaint ID
+0       9/24/19  ...      3384392
+1       9/19/19  ...      3379500
+2      10/25/19  ...      3417821
+3       11/8/19  ...      3433198
+4        2/8/19  ...      3146310
+
+[5 rows x 18 columns]
+Engine(sqlite:///complaints2021.db)
+=====
+jjjjjj
+Index(['Date received', 'Product', 'Sub-product', 'Issue', 'Sub-issue',
+       'Consumer complaint narrative', 'Company public response', 'Company',
+       'State', 'ZIP code', 'Tags', 'Consumer consent provided?',
+       'Submitted via', 'Date sent to company', 'Company response to consumer',
+       'Timely response?', 'Consumer disputed?', 'Complaint ID'],
+      dtype='object')
++++++
+   index DateReceived  ... ConsumerDisputed? ComplaintId
+0      0      9/24/19  ...              None     3384392
+1      1      9/19/19  ...              None     3379500
+2      2     10/25/19  ...              None     3417821
+3      3      11/8/19  ...              None     3433198
+4      4       2/8/19  ...              None     3146310
+5      5      9/16/19  ...              None     3375510
+6      6      3/30/19  ...              None     3196090
+7      7      6/17/20  ...              None     3706449
+8      8     10/24/19  ...              None     3416481
+9      9     11/20/19  ...              None     3446074
+
+[10 rows x 19 columns]
+py.iplot
