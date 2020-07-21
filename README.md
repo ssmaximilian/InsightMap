@@ -21,3 +21,5 @@ The results will be the quantitative values along with maps depicting relevant g
             │   └── complaints.csv
             |── output
                 └── report.csv
+                
+python3.8 ./SRC/InsightCodingChallenge.py ./input/dataIn.csv ./output/dataOut.csv
